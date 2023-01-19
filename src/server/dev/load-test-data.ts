@@ -1,4 +1,4 @@
-import { connectClient, stopClient } from "../server/db";
+import { connectClient, stopClient } from "../db";
 
 async function main() {
   const client = await connectClient();

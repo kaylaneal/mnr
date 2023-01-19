@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es5", //es6 or es2022 assumes updated browser (more modern)
     "module": "commonjs",
     "lib": ["dom", "es2021", "scripthost"],
     "jsx": "react-jsx",
